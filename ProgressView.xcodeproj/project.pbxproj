@@ -11,6 +11,7 @@
 		A428570F284A86D0005674B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428570E284A86D0005674B3 /* ContentView.swift */; };
 		A4285711284A86D4005674B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4285710284A86D4005674B3 /* Assets.xcassets */; };
 		A4285714284A86D4005674B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4285713284A86D4005674B3 /* Preview Assets.xcassets */; };
+		A428571C284A89E1005674B3 /* RefreshableLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428571B284A89E1005674B3 /* RefreshableLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A428570E284A86D0005674B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4285710284A86D4005674B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4285713284A86D4005674B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A428571B284A89E1005674B3 /* RefreshableLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableLoading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		A428570B284A86D0005674B3 /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				A428571A284A89C3005674B3 /* App */,
 				A428570C284A86D0005674B3 /* ProgressViewApp.swift */,
-				A428570E284A86D0005674B3 /* ContentView.swift */,
 				A4285710284A86D4005674B3 /* Assets.xcassets */,
 				A4285712284A86D4005674B3 /* Preview Content */,
+				A428571B284A89E1005674B3 /* RefreshableLoading.swift */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -65,6 +68,14 @@
 				A4285713284A86D4005674B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A428571A284A89C3005674B3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A428570E284A86D0005674B3 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A428570F284A86D0005674B3 /* ContentView.swift in Sources */,
 				A428570D284A86D0005674B3 /* ProgressViewApp.swift in Sources */,
+				A428571C284A89E1005674B3 /* RefreshableLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
